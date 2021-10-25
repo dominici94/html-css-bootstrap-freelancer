@@ -29,7 +29,7 @@ Extra extra large	xxl	≥1400px */
 }
 
 .debug .jumbo{
-    height: 200px;
+    /* height: 200px; */
     background-color: cadetblue;
 }
 
@@ -54,7 +54,7 @@ Extra extra large	xxl	≥1400px */
 }
 
 .debug .portfolio{
-    height: 500px;
+    /* height: 500px; */
     background-color: lightgrey;
 }
 
@@ -66,5 +66,16 @@ Extra extra large	xxl	≥1400px */
 .debug .img_portf{
     height: 200px;
     background-color: lightskyblue;
+    border: 1px solid black;
+}
+
+.debug .about{
+    /* height: 380px; */
+    background-color: cadetblue;
+}
+
+.debug .par{
+    height: 150px;
+    background-color: lightseagreen;
     border: 1px solid black;
 }
