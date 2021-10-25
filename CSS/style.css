@@ -1,0 +1,35 @@
+/* breakpoints Bootstrap */
+
+/* X-Small	None	<576px
+Small	sm	≥576px
+Medium	md	≥768px
+Large	lg	≥992px
+Extra large	xl	≥1200px
+Extra extra large	xxl	≥1400px */
+
+
+
+/* debug */
+
+.debug .header_top{
+    background-color: aqua;
+    /* height: 100px; */
+    border: 1px solid greenyellow;
+}
+
+.debug  .left_header{
+    height: 100px;
+    background-color: cornflowerblue;
+    border: 1px solid red;
+}
+
+.debug .right_header{
+    height: 100px;
+    background-color:darkcyan;
+    border: 1px solid black;
+}
+
+.debug .jumbo{
+    height: 200px;
+    background-color: cadetblue;
+}
