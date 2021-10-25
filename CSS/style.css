@@ -8,7 +8,6 @@ Extra large	xl	≥1200px
 Extra extra large	xxl	≥1400px */
 
 
-
 /* debug */
 
 .debug .header_top{
@@ -32,4 +31,24 @@ Extra extra large	xxl	≥1400px */
 .debug .jumbo{
     height: 200px;
     background-color: cadetblue;
+}
+
+.debug .jumbo_img{
+    height: 100px;
+    background-color: greenyellow;
+}
+
+.debug .jumbo_title{
+    height: 30px;
+    background-color: tomato;
+}
+
+.debug .star_line{
+    height: 20px;
+    background-color: orange;
+}
+
+.debug .jumbo_nav{
+    height: 30px;
+    background-color: palegreen;
 }
