@@ -79,3 +79,35 @@ Extra extra large	xxl	≥1400px */
     background-color: lightseagreen;
     border: 1px solid black;
 }
+
+.debug .contact{
+    background-color: lightgray;
+    height: 300px;
+}
+
+.debug .form{
+    height: 20px;
+    border: 1px solid black;
+    background-color: lightgreen;
+}
+
+.debug .footer_top{
+    background-color: darkslategray;
+    /* height: 200px; */
+}
+
+.debug .footer_bottom{
+    background-color: dimgrey;
+    height: 100px;
+}
+
+.debug .info{
+    height: 100px;
+    background-color: gold;
+    border: 1px solid black;
+}
+
+.debug .foot{
+    background-color: red;
+    height: 20px;
+}
