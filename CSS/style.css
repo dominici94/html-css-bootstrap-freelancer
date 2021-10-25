@@ -52,3 +52,19 @@ Extra extra large	xxl	≥1400px */
     height: 30px;
     background-color: palegreen;
 }
+
+.debug .portfolio{
+    height: 500px;
+    background-color: lightgrey;
+}
+
+.debug .portf_star{
+    height: 50px;
+    background-color: lightslategrey;
+}
+
+.debug .img_portf{
+    height: 200px;
+    background-color: lightskyblue;
+    border: 1px solid black;
+}
