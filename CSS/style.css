@@ -41,12 +41,11 @@ Extra extra large	xxl	≥1400px */
 
 /* footer */
 
-.footer-top{
+#footer_top{
     background-color: #3a456d;
 }
 
-.footer-bottom{
-    height: 100px;
+#footer_bottom{
     background-color: #2c3e50;
 }
 
