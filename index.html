@@ -24,17 +24,20 @@
                     
             </div> -->
             <nav class="navbar navbar-expand-lg navbar-dark ms_bg-navbar text-uppercase">
-                <a class="navbar-brand" href="#">Start bootstrap</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                  <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Portfolio<span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">About</a>
-                    <a class="nav-item nav-link" href="#">Contact</a>
+                <div class="container">
+                    <a class="navbar-brand" href="#">Start bootstrap</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#">Portfolio<span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#">About</a>
+                        <a class="nav-item nav-link" href="#">Contact</a>
+                    </div>
                 </div>
-              </nav>
+
+            </nav>
 
         </div>
         <!-- <div class="container">
@@ -221,10 +224,9 @@
         <!-- fine portfolio -->
 
         <!-- about -->
-        <section>
-            <div id="about">
-
-                <div class="container text-white py-3">
+        <section id="about">
+            
+                <div class="container text-white py-5">
 
                     <div class="row text-center text-uppercase">
 
@@ -257,7 +259,7 @@
 
                 </div>
 
-            </div>
+            
             
             <!-- id about -->
             <!-- <div class="container">
@@ -293,7 +295,39 @@
         <!-- fine about -->
 
         <!-- contact -->
-        <section>
+        <section id="contact">
+            <div class="container p-3">
+                <div class="row text-center text-uppercase">
+                    <div class="col-12">
+                        <h2>contact me</h2>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Name</label>
+                            <input type="input" class="form-control border-0 border-bottom rounded-0" id="exampleFormControlInput1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control border-0 border-bottom rounded-0" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Phone number</label>
+                            <input type="input" class="form-control border-0 border-bottom rounded-0" id="exampleFormControlInput1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control border-0 border-bottom rounded-0" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-success">Send</button>
+                    </div>
+                </div>
+            </div>
             <!-- id contact -->
             <!-- <div class="container">
                 <div class="row">
@@ -308,14 +342,14 @@
                 </div>
             </div> -->
 
-            <div class="container-sm p.5 contact">
+            <!-- <div class="container-sm p.5 contact">
                 <div class="row justify-content-center py-3">
                     <div class="col-7 form"></div>
                     <div class="col-7 form"></div>
                     <div class="col-7 form"></div>
                     <div class="col-7 form"></div>
                 </div>
-            </div>
+            </div> -->
         </section>
         <!-- fine contact -->
     </main>
